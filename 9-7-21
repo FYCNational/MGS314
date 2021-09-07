@@ -1,1 +1,16 @@
+print(5//3) #Integer Division
+print(5%3) #Remainder
+x=(2**2)+(9+3) #Pemdas
+print(x) #print Pemdas
+print(type(x)) #print pemdas class
 
+#PercentageFinder
+points_obtained= input("Enter points out of 100=")
+points_obtained= float(points_obtained)
+total_points=100
+percentage=(points_obtained/total_points)*100
+print(str(percentage)+"%")
+
+#First 10 characters
+student="I am a UB student"
+print(student[0:10])
